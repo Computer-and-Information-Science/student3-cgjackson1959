@@ -47,14 +47,11 @@ public class Student {
             Student student1 = new Student(studentName:"Lisa Waddell", 54321, 2.5);
 
             //call the displayStudent method here
-            student1.displayStudent();
-            student1.setId(54321);
             student1.setGPA(3.0);
+            student1.displayStudent();
+
             System.out.println(student1.getStudentName());
             System.out.println(student1.getStudentId());
             System.out.println(student1.getStudentGPA());
-
-
-        }
     }
 }
